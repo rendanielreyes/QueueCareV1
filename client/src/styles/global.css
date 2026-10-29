@@ -26,3 +26,7 @@ input, select {
   font-family: inherit;
   outline: none;
 }
+
+.account-strip{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 24px;background:#f8fbfd;border-bottom:1px solid #e5edf2;color:#607589;font-size:11px}
+.account-strip-user{display:flex;align-items:center;gap:8px;min-width:0}.account-strip-user strong{color:#18364c;font-weight:700}.account-strip-avatar{display:grid;place-items:center;width:26px;height:26px;flex-shrink:0;border-radius:8px;background:#e2f4f8;color:#0284c7}.account-strip-logout{display:flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid #dbe6ec;border-radius:8px;background:#fff;color:#50677a;font-size:11px}.account-strip-logout:hover{background:#f1f8fb;color:#036b8d}
+@media(max-width:600px){.account-strip{padding:8px 14px}.account-strip-user{font-size:10px}.account-strip-logout{font-size:10px}}
